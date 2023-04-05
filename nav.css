@@ -1,0 +1,108 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin-block-start: 0;
+  margin-inline-start: 0;
+}
+
+header {
+  height: 80px;
+  color: aliceblue;
+  background-color: #060000;
+  display: flex;
+  justify-content: flex-end;
+  /* margin: -20px; */
+}
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.search {
+  width: 20px;
+  position: absolute;
+  right: 37%;
+  top: 30px;
+  opacity: 0.5;
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  /* justify-content: flex-end; */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav ul input {
+  border: none;
+  border-radius: 20px;
+  padding-left: 15px;
+  height: 25px;
+  width: 250px;
+  margin-right: 20px;
+  font-weight: 300;
+}
+
+.logo {
+  /* margin-left: 85px; */
+  align-items: center;
+  left: 5%;
+  position: absolute;
+  top: -5px;
+}
+
+.bagian-atas a {
+  font-size: 12px;
+  justify-content: space-between;
+  margin: 10px;
+}
+.bagian-atas img {
+  position: relative;
+  top: 3px;
+  width: 15px;
+}
+
+#deskripsi {
+  margin-left: 7px;
+}
+
+#deskripsi:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid aliceblue;
+  margin: 2px 50.3% 10px 10px;
+  /* margin-left: 5px;
+  margin-right: 50%; */
+  align-items: baseline;
+}
+
+footer h5 {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("/img/footer.jpg");
+  color: aliceblue;
+}
+
+td {
+  font-size: 15px;
+  vertical-align: top;
+}
+
+#dua {
+  padding-right: 50%;
+  text-align: justify;
+}
